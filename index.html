@@ -9,13 +9,21 @@
     <body>
         <div class="container">
             <!--Start button to show High Score-->
-
             <div id="startpage">
                 <h2>This quiz will test your knowledge</h2>
                 <h2>to see how much you know about coding and web design concepts</h2>
                 <button id="startbtn">Start Code Quiz</button>
                 <button id="startPageHighscore" onclick="showHighscore()"></button>
             </div>
+            <!--Create buttons for choices and time left-->
+            <div id="quiz">
+                <div id="timer">Time left: </div>
+                <div id="questions"><p>Questions</p></div>
+                <button id="a"onclick="checkAnswer('a')">A</button>
+                <button id="b"onclick="checkAnswer('a')">B</button>
+                <button id="c"onclick="checkAnswer('a')">C</button>
+                <button id="d"onclick="checkAnswer('a')">D</button>
+            <div id="result"></div>
         </div>
     </body>
 </html>
