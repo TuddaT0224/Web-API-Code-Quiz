@@ -152,8 +152,24 @@ function generateHighscores(){
     highscoreDisplayScore.innerHTML = "";
     var highscores = JSON.parse(localStorage.getItem("savedHighscores")) || [];
     for (i=0; i<highscores.length; i++){
-        
+        var newNameSpan = document.createElement("li");
+        var newScoreSpan = document.createElement("li");
+        newNameSpan.textContent = highscores[i].name;
+        newScoreSpan.textContent = highscores[i].score;
+        highscoreDisplayName.appendChild(newNameSpan);
+        highscoreDisplayScore.appendChild(newScoreSpan);
     }
+};
+
+// This function displays the high scores page
+function showHighscore(){
+    startQuiz.style.display = "none";
+    quizOver.style.display = "none";
+    highscoreContainer.style.display = "flex";
+    highscore.style.display = "block";
+    endquiz.style.display = "flex";
+
+    generateHighscores();
 }
 
 
