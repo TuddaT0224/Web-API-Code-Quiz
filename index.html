@@ -25,5 +25,19 @@
                 <button id="d"onclick="checkAnswer('a')">D</button>
             <div id="result"></div>
         </div>
+        <!--Button to submit your high score-->
+        <div id="quizover">
+            <div id="totalscore"></div>
+            <input type="text" size="40" placeholder="Enter your initials for the high score" name="initials" id="initials"/>
+            <button id="submitScore">Submit Score</button>
+        </div>
+        <div id="highscoreContainer">
+            <div id="high-scorePage"></div>
+        </div>
+        <div id="endGameBtns">
+            <button id="playAgain" onclick="replayQuiz()">Play Again</button>
+            <button id="clearHighscore" onclick="clearScore()">Clear Scores</button>
+        </div>
+        <script src="./js/script.js"></script>
     </body>
 </html>
