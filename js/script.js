@@ -79,6 +79,20 @@ var timerInterval;
 var score = 0;
 var correct;
 
+// This will cycle through the object array containing the questions and generate the questions and answers.
+function generateQuizQuestion(){
+    quizOver.style.display = "none";
+    if (currentQuestionIndex === finalQuestionIndex){
+        return showScore();
+    }
+    var currentQuestion = quizQuestions[currentQuestionIndex];
+    questionsEl.innerHTML = "<p>" + currentQuestion.question + "<p>";
+    buttonA.innerHTML = currentQuestion.choiceA;
+    buttonB.innerHTML = currentQuestion.choiceB;
+    buttonC.innerHTML = currentQuestion.choiceC;
+    buttonD.innerHTML = currentQuestion.choiceD;
+}
+
 
 
 
