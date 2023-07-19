@@ -121,6 +121,16 @@ function showScore(){
     totalScoreEl.innerHTML = "You got " + score + "out of " + quizQuestions.length + " correct!";
 }
 
+// Once you click the submit button, it will then run the highscore function that saves and strings the array of high scores
+submitScoreBtn.addEventListener("click", function highscore(){
+    if(highscoreInputName.value === "") {
+        alert("Initials cannot be blank");
+        return false;
+    }else {
+        
+    }
+})
+
 
 
 
