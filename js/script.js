@@ -18,3 +18,14 @@ var endquiz = document.getElementById("endQuizBtns");
 var highscoreDisplayScore = document.getElementById("highscore-score");
 var highscoreDisplayName = document.getElementById("highscore-initials");
 var questionsEl = document.getElementById("questions");
+
+// Quiz Questions
+var quizQuestions = [{
+    question: "What is the purpose of the 'typeof' operator in JavaScript?",
+    choiceA: "To determine the data type of a value",
+    choiceB: "To compare two values",
+    choiceC: "To loop over an array",
+    choiceD: "To declare a variable",
+    correctAnswer: "a"},
+    
+}]
