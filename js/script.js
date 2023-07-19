@@ -172,6 +172,23 @@ function showHighscore(){
     generateHighscores();
 }
 
+// clears the local storage
+function clearScore(){
+    window.localStorage.clear();
+    highscoreDisplayName.textContent = "";
+    highscoreDisplayScore.textContent = "";
+}
+
+// This function sets all variables bout to the original
+function replayQuiz(){
+    highscoreContainer.style.display = "none";
+    quizOver.style.display = "none";
+    startQuiz.style.display = "flex";
+    timeLeft = 76;
+    score = 0;
+    currentQuestionIndex = 0;
+}
+
 
 
 
