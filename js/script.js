@@ -144,7 +144,17 @@ submitScoreBtn.addEventListener("click", function highscore(){
         generateHighscores();
 
     }
-})
+});
+
+// This function clears the list for high scores
+function generateHighscores(){
+    highscoreDisplayName.innerHTML = "";
+    highscoreDisplayScore.innerHTML = "";
+    var highscores = JSON.parse(localStorage.getItem("savedHighscores")) || [];
+    for (i=0; i<highscores.length; i++){
+        
+    }
+}
 
 
 
