@@ -127,7 +127,22 @@ submitScoreBtn.addEventListener("click", function highscore(){
         alert("Initials cannot be blank");
         return false;
     }else {
-        
+        var savedHighscores = JSON.parse(localStorage.getItem("savedHighscores")) || [];
+        var currentUser = highscoreInputName.value.trim();
+        var currentHighscore = {
+            name: currentUser,
+            score: score
+        };
+
+        quizOver.style.display = "none";
+        highscoreContainer.style.display = "flex";
+        highScore.style.display = "block";
+        endquiz.style.display = "flex";
+
+        savedHighscores.push(currentHighscore);
+        localStorage.setItem("savedHighscores", JSON.stringify(savedHighscores));
+        generateHighscores();
+
     }
 })
 
