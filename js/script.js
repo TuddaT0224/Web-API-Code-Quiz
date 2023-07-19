@@ -69,13 +69,17 @@ var quizQuestions = [{
     choiceC: "To perform arithmetic operations",
     choiceD: "To define a new JavaScript function",
     correctAnswer: "a"},
- }
- }
- }
- }
- }
- }
+];
+ 
+// global variables
+var finalQuestionIndex = quizQuestions.length;
+var currentQuestionIndex = 0;
+var timeLeft = 76;
+var timerInterval;
+var score = 0;
+var correct;
+
+
+
 
     
-
-}]
