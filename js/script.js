@@ -98,6 +98,18 @@ function startQuiz(){
     quizOver.style.display = "none";
     startQuiz.style.display = "none";
     generateQuizQuestion();
+
+    // function for timer
+    timerInterval = setInterval(function() {
+        timeLeft--;
+        quizTimer.textContent = "Time left: " + timeLeft;
+
+        if(timeLeft === 0) {
+            clearInterval(timerInterval);
+            showScore();
+        }
+    }, 1000);
+    quizForm.style.display = "block";
 }
 
 
