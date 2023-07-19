@@ -28,47 +28,47 @@ var quizQuestions = [{
     choiceD: "To declare a variable",
     correctAnswer: "a"},
  {
-    question: "",
-    choiceA:
-    choiceB:
-    choiceC:
-    choiceD:
-    correctAnswer:
+    question: "Which of the following is NOT a valid JavaScript data type?",
+    choiceA: "String",
+    choiceB: "Boolean",
+    choiceC: "Undefined",
+    choiceD: "Float",
+    correctAnswer: "d"},
+ {
+    question: "What is the difference between 'null' and 'undefined' in JavaScript?",
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: ""},
  {
     question: "",
-    choiceA:
-    choiceB:
-    choiceC:
-    choiceD:
-    correctAnswer:
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: ""},
  {
     question: "",
-    choiceA:
-    choiceB:
-    choiceC:
-    choiceD:
-    correctAnswer:
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: ""},
  {
     question: "",
-    choiceA:
-    choiceB:
-    choiceC:
-    choiceD:
-    correctAnswer:
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: ""},
  {
     question: "",
-    choiceA:
-    choiceB:
-    choiceC:
-    choiceD:
-    correctAnswer:
- {
-    question: "",
-    choiceA:
-    choiceB:
-    choiceC:
-    choiceD:
-    correctAnswer:
+    choiceA: "",
+    choiceB: "",
+    choiceC: "",
+    choiceD: "",
+    correctAnswer: ""},
  }
  }
  }
