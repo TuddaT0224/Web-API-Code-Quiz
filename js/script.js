@@ -91,6 +91,13 @@ function generateQuizQuestion(){
     buttonB.innerHTML = currentQuestion.choiceB;
     buttonC.innerHTML = currentQuestion.choiceC;
     buttonD.innerHTML = currentQuestion.choiceD;
+};
+
+// Start quiz function starts the timer, then it will hide the start button and display first question.
+function startQuiz(){
+    quizOver.style.display = "none";
+    startQuiz.style.display = "none";
+    generateQuizQuestion();
 }
 
 
