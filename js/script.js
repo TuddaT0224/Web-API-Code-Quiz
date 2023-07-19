@@ -27,5 +27,55 @@ var quizQuestions = [{
     choiceC: "To loop over an array",
     choiceD: "To declare a variable",
     correctAnswer: "a"},
+ {
+    question: "",
+    choiceA:
+    choiceB:
+    choiceC:
+    choiceD:
+    correctAnswer:
+ {
+    question: "",
+    choiceA:
+    choiceB:
+    choiceC:
+    choiceD:
+    correctAnswer:
+ {
+    question: "",
+    choiceA:
+    choiceB:
+    choiceC:
+    choiceD:
+    correctAnswer:
+ {
+    question: "",
+    choiceA:
+    choiceB:
+    choiceC:
+    choiceD:
+    correctAnswer:
+ {
+    question: "",
+    choiceA:
+    choiceB:
+    choiceC:
+    choiceD:
+    correctAnswer:
+ {
+    question: "",
+    choiceA:
+    choiceB:
+    choiceC:
+    choiceD:
+    correctAnswer:
+ }
+ }
+ }
+ }
+ }
+ }
+
     
+
 }]
