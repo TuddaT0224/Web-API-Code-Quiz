@@ -112,6 +112,15 @@ function startQuiz(){
     quizForm.style.display = "block";
 }
 
+// This function will display your score after completing the quiz or running out of time.
+function showScore(){
+    quizForm.style.display = "none";
+    quizOver.style.display = "flex";
+    clearInterval(timerInterval);
+    highscoreInputName.value = "";
+    totalScoreEl.innerHTML = "You got " + score + "out of " + quizQuestions.length + " correct!";
+}
+
 
 
 
